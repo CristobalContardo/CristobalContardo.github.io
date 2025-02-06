@@ -1,23 +1,84 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
+/* Color general para todo el texto */
 body {
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  color: #fff;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Arial', sans-serif;
+  background: #121212;
+  color: white; /* Cambia el color del texto a blanco */
+  font-family: Arial, sans-serif;
+  transition: all 0.5s ease-in-out;
 }
 
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* Sobrescribimos los estilos de Bootstrap para los enlaces */
+a, .navbar-nav a {
+  color: white !important; /* Los enlaces serán blancos, incluso en Bootstrap */
+  text-decoration: none; /* Quitamos el subrayado en todos los enlaces */
+}
+
+/* Enlaces en hover */
+a:hover, .navbar-nav a:hover {
+  color: #1db954 !important; /* Cambia el color al pasar el cursor */
+}
+
+/* Para el navbar en general */
+.navbar {
+  background: linear-gradient(45deg, #4e4376, #2b5876);
+}
+
+.navbar-nav a {
+  color: white !important; /* Para los enlaces en la barra de navegación */
+}
+
+.navbar-nav a:hover {
+  color: #1db954 !important; /* Color en hover de los enlaces de la navbar */
+}
+
+.circle-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-custom {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgba(85, 101, 119, 1) 0%, rgba(121, 138, 155, 1) 100%);
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white; /* Los links en el footer serán blancos */
+}
+
+footer a:hover {
+  color: #1db954; /* Color en hover, puedes cambiarlo */
+}
+
+
+.social-buttons {
+  padding-top: 100px; /* Espacio extra antes de los botones */
+}
+
+.content {
+  color: white;
 }
