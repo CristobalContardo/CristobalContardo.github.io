@@ -33,12 +33,7 @@ a:hover, .navbar-nav a:hover {
 
 img {
   border-radius: 10px;
-  width: 60%;
-  height: 60%;
-  object-fit: cover;
   box-shadow: #1a1a1a 10px 10px 10px;
-}
-
-.todo {
   height: 100%;
+  width: 100%;
 }
