@@ -20,12 +20,8 @@ a:hover, .navbar-nav a:hover {
 }
 
 .certificacion {
-  padding: 50px;
   text-align: center;
   color: white;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +30,4 @@ a:hover, .navbar-nav a:hover {
 img {
   border-radius: 10px;
   box-shadow: #1a1a1a 10px 10px 10px;
-  height: 100%;
-  width: 100%;
 }
